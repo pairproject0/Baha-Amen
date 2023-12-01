@@ -1,3 +1,4 @@
+
 var  img1= document.getElementById('img1')
 var img2 = document.getElementById('img2')
 var img3 = document.getElementById('img3')
@@ -51,7 +52,6 @@ function redirect() {
   var destinationURL='confirmation.html'
   window.location.href=destinationURL
 }
-
 var buyticket0 = document.getElementById("buyticket0");
 var h1 = document.getElementById("buyticket0"); 
 
