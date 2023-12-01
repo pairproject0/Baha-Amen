@@ -42,6 +42,7 @@ img4.style.display = 'none'
     },8000)
   }
 
+
   function showRandomTickets() {
     var randomTickets=Math.floor(Math.random()*100000)
     ticketPriceElement.textContent="Ticket Number: " + randomTickets
@@ -50,7 +51,7 @@ img4.style.display = 'none'
 function redirect() {
   var destinationURL='confirmation.html'
   window.location.href=destinationURL
-=======
+}
 var buyticket0 = document.getElementById("buyticket0");
 var h1 = document.getElementById("buyticket0"); 
 
