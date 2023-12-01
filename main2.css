@@ -1,0 +1,19 @@
+body {
+    background-image: url("https://media.architecturaldigest.com/photos/5890b11d33bd1de9129ea9b2/16:9/w_2560%2Cc_limit/a380-A380-flying.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.confirmation-message {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
