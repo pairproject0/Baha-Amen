@@ -194,3 +194,8 @@ button {
     display: none;
     transition: opacity 0.8s ease;
 }
+#confirm{
+    background-color: #4caf50;
+    color: whitesmoke;
+}
+
