@@ -7,7 +7,7 @@
 </head>
 <body>
 <div id="baha">
-    <div id="block">
+    <!-- <div id="block">
         <h1 id="buyticket0">Tunis-Sousse</h1>
         <button id="buyTicketBtn0" onclick="disimg()">Buy Ticket</button>
 
@@ -19,23 +19,46 @@
 
 
         <p id="buyticket3"> Tunis-Tataouine</p>
-        <button id="buyTicketBtn3" onclick="disimgggg()">Buy Ticket</button>
+        <button id="buyTicketBtn3" onclick="disimgggg()">Buy Ticket</button> -->
+<div id="block">
+<h1 id="buyticket0">Tunis-Sousse</h1>
+<button id="buyTickeBtn0" onclick={button0(),disimg()}>Buy Ticket</button>
 
-        <h2 id="ticketPrice"></h2>
+<p id="buyticket1"> Tunis-Sfax</p>
+<button id="buyTicketBtn1" onclick={button1(),disimgg()}>Buy Ticket</button>
+
+<p id="buyticket2"> Tunis-Gabes</p>
+<button id="buyTicketBtn2" onclick={button2(),disimggg()}>Buy Ticket</button>
+
+<p id="buyticket3"> Tunis-Tataouine</p>
+<button id="buyTicketBtn3" onclick={button3(),disimgggg()}>Buy Ticket</button>
+
+<h2 id="ticketPrice"></h2>
+
+<button id="price" onclick="showprice()">price</button>
+<button id="show" onclick="showRandomTickets()">show ticket</button>
+<h3 id="confirm"></h3>
+<button id="confirm" onclick="redirect()">Confirm your Flight</button>
+</div>
+
+<div class="img1" >
+    <img id="img1" src="b1.gif" alt="">
+    <img id="img2" src="b2.gif" alt="">
+    <img id="img3" src="b3.gif" alt="">
+    <img id="img4" src="b4.gif" alt="">
+</div>
+
+//HELLO
+//hello again 
+        <!-- <h2 id="ticketPrice"></h2>
         <button id="price">price</button>
-        <button id="show" onclick="showRandomTickets()">show ticket</button>
-        <h3 id="confirm"></h3>
-        <button id="confirm" onclick="redirect()">Confirm your Flight</button>
+        <button id="show" onclick="showRandomTickets()">show ticket</button> -->
+    
 
 
         
     </div>
-    <div class="img1" >
-        <img id="img1" src="b1.gif" alt="">
-        <img id="img2" src="b2.gif" alt="">
-        <img id="img3" src="b3.gif" alt="">
-        <img id="img4" src="b4.gif" alt="">
-    </div>
+  
 
     <script src="main.js"></script>
 </body>
