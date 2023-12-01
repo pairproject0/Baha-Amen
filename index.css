@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://c8.alamy.com/compfr/k8dc64/tunis-tunisie-31-aout-2015-le-louage-mini-bus-gare-de-barcelone-square-l-endroit-bonde-a-cote-de-la-gare-ferroviaire-le-31-aout-a-tu-k8dc64.jpg");
+    background-image: url("https://media.architecturaldigest.com/photos/5890b11d33bd1de9129ea9b2/16:9/w_2560%2Cc_limit/a380-A380-flying.jpg");
     background-size: cover;
     font-family:  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -7,13 +7,18 @@ body {
     display:inline-block;
     flex-direction: column;
     justify-content: center;
+
 }
 
 
-#block{
-    margin-right: 800px;
+
+#imgContainer {
+    margin-left: 20px; 
 }
 
+#block {
+    margin-right: 20px; 
+}
 
 h1{font-size:  40px; ;
     margin-top: 10px;
@@ -127,4 +132,44 @@ button {
     }
 }
 
+#baha {
+    display: flex;
+}
+#img1{
+    align-items: right;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid #4caf50;
+    display: none;
+    transition: opacity 0.8s ease;
 
+}
+#img2{
+    align-items: right;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid #4caf50;
+    display: none;
+    transition: opacity 0.8s ease;
+
+}
+#img3{
+    align-items: right;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid #4caf50;
+    display: none;
+    transition: opacity 0.8s ease;
+}
+#img4{
+    align-items: right;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid #4caf50;
+    display: none;
+    transition: opacity 0.8s ease;
+}
